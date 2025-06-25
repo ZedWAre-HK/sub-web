@@ -54,20 +54,14 @@ export const targetConfig = [{
     value: 'loon'
 }];
 export const backendConfig = [{
-    label: 'subapi.cmliussss.net(CM提供-负载均衡后端)',
-    value: 'https://subapi.cmliussss.net/sub?'
-}, {
-    label: 'v.id9.cc(品云提供-稳定后端)',
-    value: 'https://v.id9.cc/sub?'
-}, {
     label: 'url.v1.mk(肥羊提供-增强型后端)',
     value: 'https://url.v1.mk/sub?'
 }, {
     label: 'sub.d1.mk(肥羊提供-备用后端)',
     value: 'https://sub.d1.mk/sub?'
 }, {
-    label: 'localhost:25500(自建本地服务)',
-    value: 'http://localhost:25500/sub?'
+    label: 'subapi.cmliussss.net(CM提供-负载均衡后端)',
+    value: 'https://subapi.cmliussss.net/sub?'
 }];
 export const externalConfig = [{
     label: 'CM规则',
